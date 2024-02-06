@@ -1,133 +1,164 @@
-body {
+/* Common Styles for Body */
+body {color: #e0a307;
+    background-color: #1a5c91;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
-header {
+/* Styles for Home */
+body.home {
+    background-color: #0651ba;
+}
+
+header.home {
     background-color: #393535;
-    color: #e39009;
+    color: #b1710a;
     padding: 15px 0;
     text-align: center;
 }
 
-.logo {border: 3px;background-color: #080707;
+.logo.home {
+    border: 3px solid #080707;
+    background-color: #080707;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links li {
+.nav-links.home li {
     display: inline-block;
     margin-right: 20px;
 }
 
+.nav-links.home a {
+    text-decoration: none;
+    color: #b1710a;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
 
-.nav-links a:hover {
+.nav-links.home a:hover {
     color: #ffd700; /* Change color on hover */
 }
 
-/* CSS for About Me */
 
+/* Styles for About Me */
+/* Common Styles for Body */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
-header, main, footer {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Styles for About */
+body.about {
+    background-color: #0651ba;
 }
 
-header {
-    background-color: #333;
-    color: #b9a408;
+header.about {
+    background-color: #393535;
+    color: #b1710a;
     padding: 15px 0;
     text-align: center;
 }
 
-main {
+.logo.about {
+    border: 3px solid #080707;
+    background-color: #080707;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links.about li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links.about a {
+    text-decoration: none;
+    color: #b1710a;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links.about a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+main.about {
     padding: 20px;
 }
 
-#about {
+#about.about {
     margin-bottom: 40px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+footer.about {
+    background-color: #393535;
+    color: #b1710a;
     padding: 10px 0;
     text-align: center;
 }
 
-/*Styles for My Portfolio*/
 
+/* Styles for My Portfolio */
+/* Common Styles for Body */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: #e4c40c;
+/* Styles for Portfolio */
+body.portfolio {
+    background-color: #1a5c91;
+}
+
+header.portfolio {
+    background-color: #393535;
+    color: #b1710A;
     padding: 15px 0;
     text-align: center;
 }
 
-.logo {
+.logo.portfolio {
     font-size: 1.5em;
     font-weight: bold;
+    border: 3px solid #080707;
+    background-color: #080707;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links li {
+.nav-links.portfolio li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.nav-links a {
+.nav-links.portfolio a {
     text-decoration: none;
     color: #bf8105;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
-    color: #ffd700; /* Change color on hover */
+.nav-links.portfolio a:hover {
+    color: #e6fb06; /* Change color on hover */
 }
 
-main {
+main.portfolio {color: #e0a307;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-#about, #portfolio, #contact {
+#about.portfolio,
+#portfolio.portfolio,
+#contact.portfolio {
     margin-bottom: 40px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+footer.portfolio {
+    background-color: #393535;
+    color: #e4c40c;
     padding: 10px 0;
     text-align: center;
 }
