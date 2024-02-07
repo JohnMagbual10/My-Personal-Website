@@ -1,14 +1,21 @@
 /* Common Styles for Body */
 body {color: #e0a307;
-    background-color: #1a5c91;
+    background-color: #23394b;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
 /* Styles for Home */
+
+/* Add this CSS to your existing style.css file */
+#hero img {
+    float: right;
+    margin-left: 20px; /* Adjust as needed */
+}
+
 body.home {
-    background-color: #0651ba;
+    background-color: #e0e3e7;
 }
 
 header.home {
@@ -40,7 +47,6 @@ header.home {
 .nav-links.home a:hover {
     color: #ffd700; /* Change color on hover */
 }
-
 
 /* Styles for About Me */
 /* Common Styles for Body */
@@ -111,7 +117,7 @@ body {
 
 /* Styles for Portfolio */
 body.portfolio {
-    background-color: #1a5c91;
+    background-color: #23394b;
 }
 
 header.portfolio {
