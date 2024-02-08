@@ -1,2 +1,2 @@
 // JavaScript code
-alert("Hello world, it is I! John Magbual");
+console.log("Hello world, it is I! John Magbual");
