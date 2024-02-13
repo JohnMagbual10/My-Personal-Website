@@ -168,3 +168,120 @@ footer.portfolio {
     padding: 10px 0;
     text-align: center;
 }
+
+/* Styles for Contact */
+
+bodcontact {
+    background-color: #23394b;
+}
+
+header.contact {
+    background-color: #393535;
+    color: #b1710A;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo.contact {
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 3px solid #080707;
+    background-color: #080707;
+}
+
+.nav-links.contact li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links.contact a {
+    text-decoration: none;
+    color: #bf8105;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links.contact a:hover {
+    color: #e6fb06; /* Change color on hover */
+}
+
+main.contact {color: #e0a307;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about.contact,
+#portfolio.contact,
+#contact.contact {
+    margin-bottom: 40px;
+}
+
+footer.contact {
+    background-color: #393535;
+    color: #e4c40c;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styles for Thankyou */
+
+body.thankyou {
+    background-color: #23394b;
+}
+
+header.thankyou {
+    background-color: #393535;
+    color: #b1710A;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo.thankyou {
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 3px solid #080707;
+    background-color: #080707;
+}
+
+.nav-links.thankyou li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links.thankyou a {
+    text-decoration: none;
+    color: #bf8105;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links.thankyou a:hover {
+    color: #e6fb06; /* Change color on hover */
+}
+
+main.thankyou {color: #e0a307;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about.thankyou,
+#portfolio.thankyou,
+#contact.thankyou {
+    margin-bottom: 40px;
+}
+
+footer.thankyou {
+    background-color: #393535;
+    color: #e4c40c;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* CSS for thank you title heading */
+h1 {
+    color: #da6a08; /* Change the color to match the Contact page */
+    font-size: 2.5em; /* Maintain the same font size */
+    /* Add any other styles you want to maintain consistency */
+}
