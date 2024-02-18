@@ -1,0 +1,78 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #bc7906;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+/* Header styles */
+.thankyou header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo.thankyou {
+    font-size: 1.5rem;
+    color: #ca7404;
+}
+
+.nav-links.thankyou li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links.thankyou li:first-child {
+    margin-left: 0;
+}
+
+.nav-links.thankyou a {
+    text-decoration: none;
+    color: #c88d0f;
+}
+
+/* Main content styles */
+.thankyou main {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ca7404;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.thankyou footer {
+    color: #979007;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10% 5%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
