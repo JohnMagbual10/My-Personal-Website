@@ -1,0 +1,91 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Ensure body takes up at least the full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+}
+
+/* Header Styles */
+.portfolio {
+    background-color: #333;
+    color: rgb(211, 146, 17);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(211, 146, 17);
+    padding: 10px 15px;
+}
+
+.nav-links li a:hover {
+    background-color: #1026b3;
+    border-radius: 5px;
+}
+
+/* Main Section Styles */
+.portfolio main {
+    flex: 1; /* Allow main section to grow and take up remaining vertical space */
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+    justify-content: flex-start; /* Align content at the top */
+    padding: 20px;
+}
+
+.portfolio section {
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+.portfolio h2,
+.portfolio h3 {
+    overflow: hidden; /* Clear any floats */
+}
+
+.portfolio h2 {
+    float: left; /* Float the heading to the left */
+    margin-right: 20px; /* Add some space between the heading and the image */
+}
+
+.portfolio img {
+    float: right; /* Float the image to the right */
+}
+
+.portfolio hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Footer Styles */
+.portfolio footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

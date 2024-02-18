@@ -1,0 +1,70 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Ensure body covers the full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+}
+
+/* Header Styles */
+.home {
+    background-color: #333;
+    color: rgb(211, 146, 17);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(230, 123, 9);
+    padding: 10px 15px;
+}
+
+.nav-links li a:hover {
+    background-color: #1026b3;
+    border-radius: 5px;
+}
+
+/* Main Section Styles */
+#hero {
+    flex-grow: 1; /* Allow the main section to grow and take up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align items to the bottom */
+    padding: 20px;
+}
+
+#hero h1 {padding: 3px;
+    margin-top: auto; /* Move h1 to the top */
+}
+
+#hero p {
+    margin-top: 10px; /* Add some space between h1 and p */
+}
+
+hr {
+    margin-top: 20px; /* Add some space between sections */
+}
